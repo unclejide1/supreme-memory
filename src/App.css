@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+/* @font-face {
+  font-family: 'FontSM60';
+  src: url('./fonts/font-sm-60.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +42,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  background-image: url('/src/hero.gif');
+  background-color: #282c34;
+  color: white;
+  font-family: 'Font SM 60', Arial, sans-serif;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-primary {
+  background-color: #A16EFF;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  background-color: #666;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+body {
+  background-image: url('/src/hero.gif')
 }
