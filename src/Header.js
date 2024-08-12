@@ -117,7 +117,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderWrapper>
         <Container>
-          <Logo href="/en">
+          <Logo >
             <svg width="70" height="70" viewBox="0 0 99 89" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g mask="url(#mask0_78_65)">
                 <path d="M105 -11H-5V99H105V-11Z" fill="url(#pattern0_78_65)" />
@@ -130,8 +130,8 @@ const Header = () => {
             </svg>
           </Logo>
           <MenuLinks>
-            <a href="/en/staking" title="staking">Staking</a>
-            <a href="/assets/documents/whitepaper.pdf" target="_blank">Whitepaper</a>
+            <a href="google.com" title="staking">Staking</a>
+            <a href="" target="_blank">Whitepaper</a>
             <Dropdown>
               <div className="dropdown-toggle">
                 <a>About</a>
