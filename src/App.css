@@ -47,14 +47,56 @@ body {
   background-image: url('/src/hero.gif');
   background-color: #282c34;
   color: white;
-  font-family: 'Font SM 60', Arial, sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+
+}
+.weiner{
+  font-weight: 500;
+  font-style: normal;
+
+  
+}
+.about{
+  width: 50rem;
+}
+.about2{
+  width: 80%;
+    max-width: 420px;
+    height: 400px;
+    z-index: 1;
+    margin-left: auto;
+    position: relative;
+    background: linear-gradient(0deg, rgba(172, 142, 235, 0.4), rgba(172, 142, 235, 0.4)), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 14px 7px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: -10px;
+}
+.inner{
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  text-align: center;
+
+}
+.cb{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 0px; */
 }
 
 .main-content {
   text-align: center;
-  padding: 50px;
+  padding-top: 2rem;
   display: flex;
   flex-direction: row;
+  align-content: flex-end;
+  text-align: left;
 }
 
 .btn-primary {
@@ -65,11 +107,25 @@ body {
 }
 
 .btn-secondary {
-  background-color: #666;
+  background-color: #A16EFF;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
 }
 body {
   background-image: url('/src/hero.gif')
+}
+
+.btn{
+  font-size: 15px;
+    font-weight: 400;
+    border-radius: 35px;
+    letter-spacing: .5px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    min-height: 45px;
 }
