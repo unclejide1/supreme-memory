@@ -60,8 +60,11 @@ body {
 .about{
   width: 50rem;
 }
+.check{
+  display: flex;
+}
 .about2{
-  width: 80%;
+  /* width: 80%; */
     max-width: 420px;
     height: 400px;
     z-index: 1;
@@ -93,9 +96,11 @@ body {
 .main-content {
   text-align: center;
   padding-top: 2rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   display: flex;
-  flex-direction: row;
-  align-content: flex-end;
+  flex-direction: column;
+  align-content: space-between;
   text-align: left;
 }
 
@@ -281,6 +286,7 @@ body {
   .container {
     padding-right: 5%;
     padding-left: 5%;
+    width: 750px;
   }
   .dialog-pop {
     max-width: 100%;
