@@ -198,9 +198,9 @@ body {
   }
 }
 
-.dialog-pop {
+/* .dialog-pop {
   max-width: 40%;
-}
+} */
 
 .main-container {
   margin-left: auto;
@@ -220,9 +220,9 @@ body {
     padding-right: 2%;
     padding-left: 2%;
   }
-  .dialog-pop {
+  /* .dialog-pop {
     max-width: 50%;
-  }
+  } */
 }
 
 @media screen and (max-width: 758px) and (min-width: 630px) {
@@ -233,9 +233,9 @@ body {
     padding-right: 2%;
     padding-left: 2%;
   }
-  .dialog-pop {
+  /* .dialog-pop {
     max-width: 60%;
-  }
+  } */
 }
 
 @media screen and (max-width: 630px) and (min-width: 576px) {
@@ -246,9 +246,9 @@ body {
     padding-right: 5%;
     padding-left: 5%;
   }
-  .dialog-pop {
+  /* .dialog-pop {
     max-width: 80%;
-  }
+  } */
 }
 @media screen and (max-width: 758px) {
   .navbar-right h4 {
@@ -288,9 +288,9 @@ body {
     padding-left: 5%;
     width: 750px;
   }
-  .dialog-pop {
+  /* .dialog-pop {
     max-width: 100%;
-  }
+  } */
 
   .wallets {
     padding: 16px !important;

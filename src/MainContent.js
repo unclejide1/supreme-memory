@@ -75,8 +75,10 @@ const MainContent = () => {
       <div className='cb'>
       
       <button className="btn btn-primary" onClick={handleShow}>CLAIM</button>
-      <button className="btn btn-secondary">Connect Wallet</button>
-      <WalletModal show={show} handleClose={handleClose} name={name} />
+      <button className="btn btn-secondary" onClick={handleClose}>Connect Wallet</button>
+      <div className="tabs-content">
+              <WalletModal show={show} handleClose={handleClose} name={name} />
+      </div>
       </div>
       </div>
       </Col>
